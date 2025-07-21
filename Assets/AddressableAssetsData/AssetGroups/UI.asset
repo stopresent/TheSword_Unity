@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  m_GroupName: UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bb18ab908b6ea06488104540982495b8
+  m_SerializeEntries:
+  - m_GUID: 828c489d61f8d83458a3318123ca235d
+    m_Address: UI_BattlePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d6d62f7f3de5584bb46fc53fd40cf1b
+    m_Address: UI_MonsterCard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d624396c7f65fb458119f674eb0854f
+    m_Address: UI_PlayerCard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0b9db006f8d39f4bb0a5f631a84a63a
+    m_Address: UI_MenuPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b134e2dfba0d264488ecc0956cb5d9f
+    m_Address: UI_MonsterInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10c1fda53fd3b114788668ed70988771
+    m_Address: UI_InvenPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 024d02085c8e05745ba095cbb0ed923e
+    m_Address: UI_ConversationPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17a387bd3a4e7c44a9f1d6a5e48de097
+    m_Address: UI_CreatureCardCopyImage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c640fe3dd34e674daddb8c1e2f6cca7
+    m_Address: UI_PlayerCardCopyImage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96072ccba44299c41b3a5f7c141441ac
+    m_Address: UI_SelectLanguagePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4795cb877477a684bb6e672a901528dc
+    m_Address: UI_IntroScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d85df9f1fb64044eae21ea3c259038d
+    m_Address: UI_GameScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6a1c9c6eca17a347b3bb5b90eaeabf8
+    m_Address: UI_StageNamePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1cd015706afebf4fb43039dbd9696e9
+    m_Address: UI_Fade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af311255cbb4efb43b4c8da48d2e79f3
+    m_Address: UI_StatusInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1245b3c44fd29042b9e74337cdd27f5
+    m_Address: UI_SettingPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 157b228441927174095f445775b78d51
+    m_Address: UI_BossRoomCheckPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e9f551695ae19a4f81be24cae2d3e11
+    m_Address: UI_MagicalSwordCheckPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 935a1706d33d7224383186ef33f64a72
+    m_Address: UI_KingSlimeCard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2ff6e8538ff4734b8b76c0a7a47704c
+    m_Address: UI_GameOverPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac19d274a3547d54f8c6501b24d1e9f9
+    m_Address: UI_LetterBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32dcf86f2348fa245ad162472d3e8dc8
+    m_Address: UI_CItemInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48a2751cb602c5849b64e3c8fe4f2b2c
+    m_Address: UI_BossNamePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e6da75635d6df440b1a726b08c42554
+    m_Address: UI_EndingScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79d8e0e5fea6ace4192b03b2f732d411
+    m_Address: UI_GuidePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1c6574a9bcad144484747921df69bf8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5722d1003711d484cb5873bf0331c04a, type: 2}
+    - {fileID: 11400000, guid: 29af521bb69a8da4a8f01d5698f5a439, type: 2}

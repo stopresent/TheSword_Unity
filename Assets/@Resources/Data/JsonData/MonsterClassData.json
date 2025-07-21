@@ -1,0 +1,94 @@
+{
+  "monsterClasses": [
+    {
+      "id": 0,
+      "ClassName": 30000,
+      "ClassDesc": 30008,
+      "AbilityImage": "BattleUI_AbilityIcon0",
+      "BattleBGImage": "BattleUI_BG0",
+      "Weapon": "BattleUI_Weppon0",
+      "Shield": "BattleUI_Shield0"
+    },
+    {
+      "id": 1,
+      "ClassName": 30001,
+      "ClassDesc": 30009,
+      "AbilityImage": "BattleUI_AbilityIcon1",
+      "BattleBGImage": "BattleUI_BG1",
+      "Weapon": "BattleUI_Weppon1",
+      "Shield": "BattleUI_Shield1"
+    },
+    {
+      "id": 2,
+      "ClassName": 30002,
+      "ClassDesc": 30010,
+      "AbilityImage": "BattleUI_AbilityIcon2",
+      "BattleBGImage": "BattleUI_BG2",
+      "Weapon": "BattleUI_Weppon2",
+      "Shield": "BattleUI_Shield2"
+    },
+    {
+      "id": 3,
+      "ClassName": 30003,
+      "ClassDesc": 30011,
+      "AbilityImage": "BattleUI_AbilityIcon3",
+      "BattleBGImage": "BattleUI_BG3",
+      "Weapon": "BattleUI_Weppon3",
+      "Shield": "BattleUI_Shield3"
+    },
+    {
+      "id": 4,
+      "ClassName": 30004,
+      "ClassDesc": 30012,
+      "AbilityImage": "BattleUI_AbilityIcon4",
+      "BattleBGImage": "BattleUI_BG4",
+      "Weapon": "BattleUI_Weppon4",
+      "Shield": "BattleUI_Shield4"
+    },
+    {
+      "id": 5,
+      "ClassName": 30005,
+      "ClassDesc": 30013,
+      "AbilityImage": "BattleUI_AbilityIcon5",
+      "BattleBGImage": "BattleUI_BG5",
+      "Weapon": "BattleUI_Weppon5",
+      "Shield": "BattleUI_Shield5"
+    },
+    {
+      "id": 6,
+      "ClassName": 30006,
+      "ClassDesc": 30014,
+      "AbilityImage": "BattleUI_AbilityIcon6",
+      "BattleBGImage": "BattleUI_BG6",
+      "Weapon": "BattleUI_Weppon6",
+      "Shield": "BattleUI_Shield6"
+    },
+    {
+      "id": 7,
+      "ClassName": 30007,
+      "ClassDesc": 30015,
+      "AbilityImage": "BattleUI_AbilityIcon7",
+      "BattleBGImage": "BattleUI_BG7",
+      "Weapon": "BattleUI_Weppon7",
+      "Shield": "BattleUI_Shield7"
+    },
+    {
+      "id": 8,
+      "ClassName": 30008,
+      "ClassDesc": 30008,
+      "AbilityImage": "BattleUI_AbilityIcon8",
+      "BattleBGImage": "BattleUI_BG8",
+      "Weapon": "BattleUI_Weppon8",
+      "Shield": "BattleUI_Shield8"
+    },
+    {
+      "id": 9,
+      "ClassName": 30008,
+      "ClassDesc": 30008,
+      "AbilityImage": "BattleUI_AbilityIcon9",
+      "BattleBGImage": "BattleUI_BG9",
+      "Weapon": "BattleUI_Weppon9",
+      "Shield": "BattleUI_Shield9"
+    }
+  ]
+}
