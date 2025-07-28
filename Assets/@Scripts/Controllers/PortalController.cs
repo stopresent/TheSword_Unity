@@ -107,8 +107,10 @@ public class PortalController : MonoBehaviour
         for (int i = 0; i < Managers.Game.Portals.Length; i++)
         {
             PortalController targetPortal = Managers.Game.Portals[i].GetComponent<PortalController>();
+            Debug.Log($"포탈 검색: {targetPortal._mapId}, {targetPortal._portalType}");
             if (targetPortal._mapId == targetmapId && targetPortal._portalType == targetType)
             {
+                Debug.Log($"포탈 발견: {targetPortal._mapId}, {targetPortal._portalType}");
                 return targetPortal;
             }
         }

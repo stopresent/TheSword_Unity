@@ -76,7 +76,7 @@
       "DEF": 6,
       "EXP": 100,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5005
     },
     {
       "id": 6,
@@ -89,7 +89,7 @@
       "DEF": 7,
       "EXP": 100,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5006
     },
     {
       "id": 7,
@@ -102,7 +102,7 @@
       "DEF": 8,
       "EXP": 100,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5007
     },
     {
       "id": 8,
@@ -115,7 +115,7 @@
       "DEF": 9,
       "EXP": 100,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5008
     },
     {
       "id": 9,
@@ -128,7 +128,7 @@
       "DEF": 10,
       "EXP": 100,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5009
     },
     {
       "id": 10,
@@ -141,7 +141,7 @@
       "DEF": 11,
       "EXP": 200,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5010
     },
     {
       "id": 11,
@@ -154,7 +154,7 @@
       "DEF": 12,
       "EXP": 300,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5011
     },
     {
       "id": 12,
@@ -167,7 +167,7 @@
       "DEF": 13,
       "EXP": 400,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5012
     },
     {
       "id": 13,
@@ -180,7 +180,7 @@
       "DEF": 14,
       "EXP": 500,
       "BGM": "BGM_100",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5013
     },
     {
       "id": 14,
@@ -193,7 +193,7 @@
       "DEF": 15,
       "EXP": 600,
       "BGM": "BGM_101",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5014
     },
     {
       "id": 15,
@@ -206,7 +206,7 @@
       "DEF": 16,
       "EXP": 700,
       "BGM": "BGM_102",
-      "DungeonNameScriptID": 0
+      "DungeonNameScriptID": 5015
     }
   ]
 }

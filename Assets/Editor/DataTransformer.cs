@@ -86,7 +86,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
@@ -127,7 +127,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
@@ -177,7 +177,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
@@ -243,6 +243,7 @@ public class DataTransformer : EditorWindow
         {
             if (file.Name.Contains("Dungeon") && !file.Name.Contains("meta"))
             {
+                Debug.Log($"Parsing Map Data: {file.Name}");
                 List<Data.ObjectData> tiles = new List<Data.ObjectData>();
                 string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{file.Name}").Split("\n");
                 float zPos = 0;
@@ -509,7 +510,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
@@ -546,7 +547,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
@@ -595,7 +596,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
@@ -615,9 +616,7 @@ public class DataTransformer : EditorWindow
             int i = 0;
             ScriptData sd = new ScriptData();
             sd.id = ConvertValue<int>(row[i++]);
-            Debug.Log(sd.id);
             sd.ScriptKr = ConvertValue<string>(row[i++]);
-            Debug.Log(sd.ScriptKr);
             sd.ScriptEn = ConvertValue<string>(row[i++]);
             sd.ScriptJp = ConvertValue<string>(row[i++]);
             sd.ScriptCn = ConvertValue<string>(row[i++]);
@@ -637,7 +636,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
@@ -676,7 +675,7 @@ public class DataTransformer : EditorWindow
 
         #region ExcelData
         string str = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv");
-        Debug.Log(str);
+        //Debug.Log(str);
         string[] lines = File.ReadAllText($"{Application.dataPath}/@Resources/Data/Excel/{filename}Data.csv").Split("\n");
 
         for (int y = 1; y < lines.Length; y++)
