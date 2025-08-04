@@ -230,7 +230,7 @@ public class MapEditor : EditorWindow
                 {
                     GameObject door = Instantiate(defaulTileMap[objectData.Id], doors.transform);
                     door.transform.position = new Vector3(objectData.Position.X, objectData.Position.Y - Define.TILE_SIZE / 4, objectData.Position.Z);
-                    door.name = $"door{objectData.Count}";
+                    door.name = $"door{objectData.Count}"; 
                 }
                 else if (objectData.ObjectType == (int)Define.ObjectType.CItem)
                 {
@@ -407,6 +407,7 @@ public class MapEditor : EditorWindow
     {
         string filePath = Application.dataPath + "/@Resources/Data/JsonData/MapData.json"; // 예제 경로
         string jsonData = File.ReadAllText(filePath); // 파일에서 JSON 문자열 읽기
+        Debug.Log("JSON Data: " + jsonData);
 
         try
         {
@@ -419,10 +420,12 @@ public class MapEditor : EditorWindow
                                     .ToList();
 
                 List<string> dungeonName = new List<string>();
-
-                for(int i =0; i < keys.Count; i++)
+                Debug.Log("Extracted Keys: " + string.Join(", ", keys));
+                
+                for (int i =0; i < keys.Count; i++)
                 {
                     dungeonName.Add(StageInfoDic[keys[i]].DungeonID);
+                    Debug.Log($"Dungeon Name: {StageInfoDic[keys[i]].DungeonID}");
                 }
 
                 return dungeonName;
