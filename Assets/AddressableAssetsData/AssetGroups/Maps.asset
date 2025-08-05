@@ -33,6 +33,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a41e531d8a04324cb2a544e3701b80c
+    m_Address: Dungeon_00_008
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 42abb205c2fe8d749af19c9952b57193
     m_Address: Dungeon_00_005
     m_ReadOnly: 0
@@ -47,6 +53,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6c089e22dcfad61479a7140c1d9b4e4e
     m_Address: Dungeon_00_001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ad214439b9af2c439141373fc1d3084
+    m_Address: Dungeon_00_007
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad

@@ -319,6 +319,11 @@ public class GameManager
         for (int i = mapStartAndEnd.Key; i <= mapStartAndEnd.Value; i++)
         {
             GameObject map = Managers.Resource.Instantiate($"Dungeon_{Managers.Data.StageInfoDic[i].DungeonID}", ParentMap.transform);
+            if (map == null)
+            {
+                Debug.LogError($"Failed to instantiate map with ID: {i}");
+                continue;
+            }
             map.transform.position = new Vector3(count * 100, 0f, 0f);
             Maps.Add(i, map);
             RefreshMap(i);
@@ -390,7 +395,7 @@ public class GameManager
         foreach (Transform child in Maps[mapId].transform.Find("Pillars"))
         {
             Pillar pillar = child.GetComponentInChildren<Pillar>();
-            if (pillar != null && Managers.Data.PillarActiveDic[pillar._pillarIndex_forActive] == false)
+            if (pillar != null && mapId < Managers.Data.PillarActiveDic.Count && Managers.Data.PillarActiveDic[pillar._pillarIndex_forActive] == false)
             {
                 pillar.SetInActive();
             }

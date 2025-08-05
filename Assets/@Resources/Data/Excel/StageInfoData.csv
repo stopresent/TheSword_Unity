@@ -1,4 +1,4 @@
-﻿ID,Dungeon_ID,Type,Up_Stairs,Down_Stairs,Boss_Room,ATK_??? (n),DEF_??? (n),EXP_??? (%),BGM,?? ?見?_ID
+﻿ID,Dungeon_ID,Type,Up_Stairs,Down_Stairs,Boss_Room,ATK_배수 (n),DEF_배수 (n),EXP_??? (%),BGM,?? ?見?_ID
 0,00_000,Common,00_001,-,-,1,1,100,BGM_000,5000
 1,00_001,Common,00_002,00_000,00_003,1,1,100,BGM_000,5001
 2,00_002,Common,-,00_001,-,4,4,100,BGM_001,5002
