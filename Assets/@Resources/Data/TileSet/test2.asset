@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: test2
   m_EditorClassIdentifier: 
   wallPrefabs:
-  - {fileID: 1221454089050015683, guid: d6d9ee0ace5790d4a9fd09b98de22b58, type: 3}
-  - {fileID: 5990217425556368167, guid: 939704f6edff7f64a98d804df99940a3, type: 3}
-  - {fileID: 6074448325346070419, guid: 0c23b097889648848ab666980fd782cf, type: 3}
-  - {fileID: 6074448325346070419, guid: 0c23b097889648848ab666980fd782cf, type: 3}
+  - {fileID: 2633144735271946972, guid: 0abc5f5719153104a8fc9e16ac128fd7, type: 3}
+  - {fileID: 6279620468851960581, guid: 939704f6edff7f64a98d804df99940a3, type: 3}
+  - {fileID: 6279620468851960581, guid: 939704f6edff7f64a98d804df99940a3, type: 3}
+  - {fileID: 8336315185824296266, guid: d19d25761833c2c439b911b3bfdf0a32, type: 3}
