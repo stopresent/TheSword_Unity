@@ -229,7 +229,12 @@ public class UI_TitleScene : UI_Scene
         Managers.Game.DeleteGameData();
         Managers.Data.Init();
         SetPlayerInitSetting();
+
+#if UNITY_EDITOR
+        Managers.Scene.LoadScene(Define.Scene.GameScene);
+#else
         Managers.Scene.LoadScene(Define.Scene.IntroScene);
+#endif
     }
 
     void OnClickLoadGameButton()
