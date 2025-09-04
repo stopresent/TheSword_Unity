@@ -185,7 +185,7 @@
     {
       "id": 14,
       "DungeonID": "00_014",
-      "Type": 1,
+      "Type": 0,
       "UpStage": "00_015",
       "DownStage": "00_013",
       "BossRoom": "-",
