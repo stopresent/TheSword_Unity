@@ -289,6 +289,10 @@ public class UI_GameScene : UI_Scene
             Debug.Log("death count : " + PlayerPrefs.GetInt("DEATHCOUNT"));
             Debug.Log("paly time : " + PlayerPrefs.GetFloat("PLAYTIME"));
         }
+        if (Input.GetKeyDown(KeyCode.F9))
+        {
+            Managers.Game.SaveGame();
+        }
         #endregion
     }
 
