@@ -5038,6 +5038,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1172950609108013607, guid: 2dfd70421cefb8943b5a765b7d25032f, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 262143
+      objectReference: {fileID: 0}
     - target: {fileID: 1375176496166958886, guid: 2dfd70421cefb8943b5a765b7d25032f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

@@ -104,6 +104,7 @@ public class PortalController : MonoBehaviour
 
     PortalController SearchPortal(int targetmapId, Type targetType)
     {
+        Debug.Log($"타겟 포탈: {targetmapId}, {targetType}");
         for (int i = 0; i < Managers.Game.Portals.Length; i++)
         {
             PortalController targetPortal = Managers.Game.Portals[i].GetComponent<PortalController>();
