@@ -57,6 +57,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 785d952d85f0e9241b8fea1c7daf41eb
+    m_Address: Dungeon_00_009
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ad214439b9af2c439141373fc1d3084
     m_Address: Dungeon_00_007
     m_ReadOnly: 0
@@ -71,6 +77,18 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b029d189bfd579946a8f1c2a8a402938
     m_Address: Dungeon_00_002
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc07757bcc5cfea46812f96b223dad39
+    m_Address: Dungeon_00_010
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d731e28eebbaf0e4c892af856d9e024b
+    m_Address: Dungeon_00_011
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad

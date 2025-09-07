@@ -620,6 +620,45 @@ public class PlayerController : MonoBehaviour
                 Managers.Resource.Destroy(hit.collider.gameObject);
                 Managers.Directing.BossOnAppearAction?.Invoke();
             }
+            else if (hit.collider.gameObject.layer == (int)Define.Layer.MovingWall)
+            {
+                // Up
+                if (_moveDir == MoveDir.Up)
+                {
+                    hit.collider.gameObject.GetComponent<MovingWall>()._moveDir = MoveDir.Up;
+                    if (hit.collider.gameObject.GetComponent<MovingWall>().Moving(_moveDir, true))
+                        somethingExist = false;
+                    else
+                        somethingExist = true;
+                }
+                // Down
+                else if (_moveDir == MoveDir.Down)
+                {
+                    hit.collider.gameObject.GetComponent<MovingWall>()._moveDir = MoveDir.Down;
+                    if (hit.collider.gameObject.GetComponent<MovingWall>().Moving(_moveDir, true))
+                        somethingExist = false;
+                    else
+                        somethingExist = true;
+                }
+                // Left
+                else if (_moveDir == MoveDir.Left)
+                {
+                    hit.collider.gameObject.GetComponent<MovingWall>()._moveDir = MoveDir.Left;
+                    if (hit.collider.gameObject.GetComponent<MovingWall>().Moving(_moveDir, true))
+                        somethingExist = false;
+                    else
+                        somethingExist = true;
+                }
+                // Right
+                else if (_moveDir == MoveDir.Right)
+                {
+                    hit.collider.gameObject.GetComponent<MovingWall>()._moveDir = MoveDir.Right;
+                    if (hit.collider.gameObject.GetComponent<MovingWall>().Moving(_moveDir, true))
+                        somethingExist = false;
+                    else
+                        somethingExist = true;
+                }
+            }
         }
 
         //Managers.Game.SaveGame();
@@ -680,7 +719,7 @@ public class PlayerController : MonoBehaviour
         {
             return TouchDir.FaceToFace;
         }
-        else if(dotProduct > 0.7f)
+        else if (dotProduct > 0.7f)
         {
             if (flattenedPlayerDir.x > 0) // 오른쪽
             {

@@ -84,6 +84,8 @@ public class Define
         InteractObjects = 15,
         BossDoor = 16,
         BossEventTrigger = 17,
+        MovingWall = 18,
+        PedalSwitch = 19,
     }
 
     public enum MoveDir
