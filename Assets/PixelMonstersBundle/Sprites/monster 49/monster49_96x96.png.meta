@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: 21aee9d6f20100f4d81aee85b5d25cda
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Sprites/monster 49/monster49_96x96.png
+  uploadId: 754908
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +27,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,9 +71,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,9 +84,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -87,348 +97,405 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mosnter48_96x96_0
+      name: monster49_96x96_0
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e1446bf3142de84da2c8588d1d66841
-      internalID: 1597937209
+      spriteID: 418de5473a0c4fd41abf5006a4bab098
+      internalID: 1476690648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_1
+      name: monster49_96x96_1
       rect:
         serializedVersion: 2
         x: 96
         y: 192
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4590e762e124c764a9191281125c8aa4
-      internalID: 2030833737
+      spriteID: 76777b843259dd247b5ccd034c32c9b0
+      internalID: 1174508935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_2
+      name: monster49_96x96_2
       rect:
         serializedVersion: 2
         x: 192
         y: 192
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82a03722c7e84b749b8450d5f0c05ca2
-      internalID: -292654794
+      spriteID: fd394fd5adb698849a566a68cd5c6178
+      internalID: 1368663664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_3
+      name: monster49_96x96_3
       rect:
         serializedVersion: 2
         x: 288
         y: 192
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1790a55a66f1f564d850984297ece80a
-      internalID: -1898997485
+      spriteID: d6edc716f55f67242a661d87dc6a63c1
+      internalID: -158489343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_4
+      name: monster49_96x96_4
       rect:
         serializedVersion: 2
         x: 0
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5558d1cf0c325e43a7291199a68ca44
-      internalID: 476655803
+      spriteID: 530ddb7f30e8cd645b29dd8f3a1a4998
+      internalID: -1292623600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_5
+      name: monster49_96x96_5
       rect:
         serializedVersion: 2
         x: 96
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 511e49a8ed479054eabccf4f4869df28
-      internalID: 1050451789
+      spriteID: cabd10f3698939842893a32a48b5e177
+      internalID: -1151760220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_6
+      name: monster49_96x96_6
       rect:
         serializedVersion: 2
         x: 192
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fe06f08c27ab3b42886d5602e47a220
-      internalID: -1260716096
+      spriteID: 54504c9605395094888900f7cdbbdcb5
+      internalID: 896176973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_7
+      name: monster49_96x96_7
       rect:
         serializedVersion: 2
         x: 288
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d41c5607da5e3ab4b841f17db25f7e55
-      internalID: 1828690392
+      spriteID: 06c71df4749a0c544b800382604de113
+      internalID: 27261317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_8
+      name: monster49_96x96_8
       rect:
         serializedVersion: 2
         x: 384
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 511e145edcf381940b4365f85d2c8fc3
-      internalID: -2071812679
+      spriteID: faaa6423c15eaf04fb4b8fd9b6d4073d
+      internalID: 2106543287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_9
+      name: monster49_96x96_9
       rect:
         serializedVersion: 2
         x: 480
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d824fc657856c74ab823e9f18c22c28
-      internalID: 428207329
+      spriteID: 061c52b2405fffb4ca66e776d394525b
+      internalID: 702330085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_10
+      name: monster49_96x96_10
       rect:
         serializedVersion: 2
         x: 576
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66197a14176c1554b8411bb10241106a
-      internalID: 1997583064
+      spriteID: 3593236b5a27a894ca66d9a42f2a1e77
+      internalID: -1166758276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_11
+      name: monster49_96x96_11
       rect:
         serializedVersion: 2
         x: 672
         y: 96
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c800f0a30060e074986a6e4b8b396aa9
-      internalID: -788838247
+      spriteID: 3dff38378514699499ff53b290595edb
+      internalID: -1347243653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_12
+      name: monster49_96x96_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08715e0442f04a44f99f2b4714280326
-      internalID: 1672163726
+      spriteID: b069bf9685f5ff14096947300ac30ac0
+      internalID: -557161953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_13
+      name: monster49_96x96_13
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5106cf2252f558c47a1a26bc3b5a66fd
-      internalID: 1822113684
+      spriteID: b04b9b352a2ca114d9af079cd6c88442
+      internalID: 796810665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_14
+      name: monster49_96x96_14
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56d3741021e556841ac11cffe21f74f2
-      internalID: -1180468592
+      spriteID: 77a5ef4fbf7a4844c978f6efb2ee204b
+      internalID: -1155715305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mosnter48_96x96_15
+      name: monster49_96x96_15
       rect:
         serializedVersion: 2
         x: 288
         y: 0
         width: 96
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2419d841722228499b31b98c66214f1
-      internalID: 1959819707
+      spriteID: b9e485acf57d7b54cb8e999cebb874b8
+      internalID: -1708769486
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -438,33 +505,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      mosnter48_96x96_0: 1597937209
-      mosnter48_96x96_1: 2030833737
-      mosnter48_96x96_10: 1997583064
-      mosnter48_96x96_11: -788838247
-      mosnter48_96x96_12: 1672163726
-      mosnter48_96x96_13: 1822113684
-      mosnter48_96x96_14: -1180468592
-      mosnter48_96x96_15: 1959819707
-      mosnter48_96x96_2: -292654794
-      mosnter48_96x96_3: -1898997485
-      mosnter48_96x96_4: 476655803
-      mosnter48_96x96_5: 1050451789
-      mosnter48_96x96_6: -1260716096
-      mosnter48_96x96_7: 1828690392
-      mosnter48_96x96_8: -2071812679
-      mosnter48_96x96_9: 428207329
-  spritePackingTag: 
+      monster49_96x96_0: 1476690648
+      monster49_96x96_1: 1174508935
+      monster49_96x96_10: -1166758276
+      monster49_96x96_11: -1347243653
+      monster49_96x96_12: -557161953
+      monster49_96x96_13: 796810665
+      monster49_96x96_14: -1155715305
+      monster49_96x96_15: -1708769486
+      monster49_96x96_2: 1368663664
+      monster49_96x96_3: -158489343
+      monster49_96x96_4: -1292623600
+      monster49_96x96_5: -1151760220
+      monster49_96x96_6: 896176973
+      monster49_96x96_7: 27261317
+      monster49_96x96_8: 2106543287
+      monster49_96x96_9: 702330085
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 319394
-  packageName: Pixel Monsters Bundle
-  packageVersion: 1.0
-  assetPath: Assets/PixelMonstersBundle/Sprites/monster 49/monster49_96x96.png
-  uploadId: 754908

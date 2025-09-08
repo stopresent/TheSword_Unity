@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: ded3b05e99e020a41868d944a76bfcac
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Sprites/monster 41/monster41_81x84.png
+  uploadId: 754908
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +27,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,9 +71,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,9 +84,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -87,6 +97,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -101,13 +151,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 160cdfb5eb889134f99883493a672fe3
+      spriteID: 4821f7557d1e25b488941106242a9a5e
       internalID: -762556885
       vertices: []
       indices: 
@@ -122,13 +173,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d79007265de6854584123dac7c1f0f7
+      spriteID: 58d26c8c742274049800153ee075b652
       internalID: 1364554682
       vertices: []
       indices: 
@@ -143,13 +195,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c0bfc8344a9f354eb1d08c75aaf8a14
+      spriteID: 5598351620f58e94cb5e3ccbf0e1c98c
       internalID: -904680190
       vertices: []
       indices: 
@@ -164,13 +217,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a2cda1f2c44d0942aaeaaf91e935afa
+      spriteID: e0c9093f002227949ad2fbabfc330250
       internalID: 94591212
       vertices: []
       indices: 
@@ -185,13 +239,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49b01646d3a5a4944bc78fbc7a3725b7
+      spriteID: fce587c5c5fa7ec4abdc326f122c0809
       internalID: 298260026
       vertices: []
       indices: 
@@ -206,13 +261,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef8d3ae716f550549be732b056fb484f
+      spriteID: a7eb747745d4eee4eb4fb8d469a8afb8
       internalID: -1778349025
       vertices: []
       indices: 
@@ -227,13 +283,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81b3cb35c93878d438ea97f38c974ce0
+      spriteID: 1ae1f1ecfa7c16b48a9d235aba76855c
       internalID: 27705763
       vertices: []
       indices: 
@@ -248,13 +305,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac70b63eb931e324080338d902c13b9d
+      spriteID: ef201f4c758946f47ba958f5c01f4426
       internalID: -26412319
       vertices: []
       indices: 
@@ -269,13 +327,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc5cc2b558edf6419b6cc90c051bba1
+      spriteID: ee66240d01c751e42b04ef9c0854e461
       internalID: -269231080
       vertices: []
       indices: 
@@ -290,13 +349,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef256dd19b7b3a7469df8e28d83c067b
+      spriteID: a96a7cb66ea7cfb4fa4db5de5b510048
       internalID: 189194252
       vertices: []
       indices: 
@@ -311,13 +371,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98505e24791371746b92676910e2f608
+      spriteID: 50230aa3af2102a45b552ac1eca28931
       internalID: 1120384349
       vertices: []
       indices: 
@@ -332,13 +393,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d5f20bd42ccf04494ef19225c65635
+      spriteID: 1a0fd061a98c29f46955f971a7e425e4
       internalID: -897368438
       vertices: []
       indices: 
@@ -353,13 +415,14 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d41592396ff6424c9112d63cddad5b2
+      spriteID: e553683cf5f86534b83e90af4e331426
       internalID: 933990460
       vertices: []
       indices: 
@@ -374,19 +437,21 @@ TextureImporter:
         width: 81
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50dfea0feb8f07545b249a54374c82ec
+      spriteID: 5bc70d2228291854aa025089d324fbe6
       internalID: -773368067
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -396,6 +461,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       mosnter_81x84_0: -762556885
       mosnter_81x84_1: 1364554682
@@ -411,16 +478,8 @@ TextureImporter:
       mosnter_81x84_7: -26412319
       mosnter_81x84_8: -269231080
       mosnter_81x84_9: 189194252
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 319394
-  packageName: Pixel Monsters Bundle
-  packageVersion: 1.0
-  assetPath: Assets/PixelMonstersBundle/Sprites/monster 41/monster41_81x84.png
-  uploadId: 754908
