@@ -51,15 +51,15 @@
     },
     {
       "id": 7,
-      "ScriptKr": "���\\n\\n��?�ʸӷ�?������?�����?��������.\\n���ðڽ��ϱ�?",
-      "ScriptEn": "Warning\\n\\nA?dangerous?aura?is?felt?beyond?the?door.\\nWould?you?like?to?go?in?",
+      "ScriptKr": "���\\n\\n�� �ʸӷ� ������ ����� ��������.\\n���ðڽ��ϱ�?",
+      "ScriptEn": "Warning\\n\\nA dangerous aura is felt beyond the door.\\nWould you like to go in?",
       "ScriptJp": null,
       "ScriptCn": null
     },
     {
       "id": 8,
-      "ScriptKr": "[ ���� ��� ]\\n����ڴ� �� �����η� ���� [���� �ҵ�] ����� ü���Ѵ�.\\n�� ����� ����^ ����ڴ� ������ ������ ���� �տ� ���� ���̸�^\\n�� �밡�� ������� ��ȥ�� ������ ���˿��� �ͼӵ��� �����Ѵ�.\\n\\n�������� ����\\n����ڴ� ������ ���� ����� �� �ִ� ������ ��´�.\\n�׷��� �� ���� ������ ������ ���� �ο��Ǹ�^\\n�� ����� ������� å���̴�.\\n����ȥ�� �ͼӢ�\\n�� ����� ü��Ǵ� ��������^ ���� ��ȥ�� ���˿��� ���ϰ� �Ǹ�^\\n���� ����� ������ ������ �����ڰ� �ȴ�.\\n������ �밡��\\n����ڴ� ������ ���� �����Ӱ� ����� �� ������^\\n�� �밡�� ������ ���°� ���⸦ ���� �ҵ忡�� ��ģ��.\\n���ı� �Ұ���\\n����� ���Ű� ��ȥ�� �ı��Ǳ� ������ ������ ���ӵȴ�.\\n�����ࢺ\\n����ڴ� �� ����� ��� ������ �����Ͽ�����^\\n���������� ���������ν�^ ������ ������ ������ ���̴�.",
-      "ScriptEn": "[Demon Sword Contract]\\nThe contractor enters into a contract with the Demon Sword [Ego Sword] from this moment on.\\nThrough this contract^ the contractor will obtain the great power of the Demon Sword^\\nIn return^ the contractor acknowledges that his soul and life will belong to the Demon Sword.",
+      "ScriptKr": "\"\"\"[ ���� ��� ]\\n����ڴ� �� �����η� ���� [���� �ҵ�] ����� ü���Ѵ�.\\n�� ����� ����^ ����ڴ� ������ ������ ���� �տ� ���� ���̸�^\\n�� �밡�� ������� ��ȥ�� ������ ���˿��� �ͼӵ��� �����Ѵ�.\\n\\n�������� ����\\n����ڴ� ������ ���� ����� �� �ִ� ������ ��´�.\\n�׷��� �� ���� ������ ������ ���� �ο��Ǹ�^\\n�� ����� ������� å���̴�.\\n����ȥ�� �ͼӢ�\\n�� ����� ü��Ǵ� ��������^ ���� ��ȥ�� ���˿��� ���ϰ� �Ǹ�^\\n���� ����� ������ ������ �����ڰ� �ȴ�.\\n������ �밡��\\n����ڴ� ������ ���� �����Ӱ� ����� �� ������^\\n�� �밡�� ������ ���°� ���⸦ ���� �ҵ忡�� ��ģ��.\\n���ı� �Ұ���\\n����� ���Ű� ��ȥ�� �ı��Ǳ� ������ ������ ���ӵȴ�.\\n�����ࢺ\\n����ڴ� �� ����� ��� ������ �����Ͽ�����^\\n���������� ���������ν�^ ������ ������ ������ ���̴�.\"\"\"",
+      "ScriptEn": "\"\"\"[Demon Sword Contract]\\nThe contractor enters into a contract with the Demon Sword [Ego Sword] from this moment on.\\nThrough this contract^ the contractor will obtain the great power of the Demon Sword^\\nIn return^ the contractor acknowledges that his soul and life will belong to the Demon Sword.\"\"\"",
       "ScriptJp": null,
       "ScriptCn": null
     },
@@ -1002,6 +1002,69 @@
       "ScriptCn": null
     },
     {
+      "id": 10009,
+      "ScriptKr": "����",
+      "ScriptEn": "Goblin",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10010,
+      "ScriptKr": "���� ����",
+      "ScriptEn": "Masked Goblin",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10011,
+      "ScriptKr": "���� ����",
+      "ScriptEn": "Shield Goblin",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10012,
+      "ScriptKr": "���� ������",
+      "ScriptEn": "Spiky Snail",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10013,
+      "ScriptKr": "���� å",
+      "ScriptEn": "Magic Book",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10014,
+      "ScriptKr": "���̷���",
+      "ScriptEn": "Skeleton",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10015,
+      "ScriptKr": "���� ������",
+      "ScriptEn": "Zombie Snail",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10016,
+      "ScriptKr": "���� ����",
+      "ScriptEn": "Monster Eyeball",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 10017,
+      "ScriptKr": "���Ź�",
+      "ScriptEn": "Poisonous Spider",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
       "id": 20000,
       "ScriptKr": "��� ������ ����� ��� ������.\\n�ַ� �� ��ó�� �����ϸ�^ ������ ���� ��⸦ ���մ´�.\\n���� ���� ������ �ֺ� ���⸦ �����ϰ� ��������^\\n���ÿ� ������ �꼺 ��ü�� �ѷ� ���� �����Ѵ�.",
       "ScriptEn": "\"A slime with a bright^ transparent green color.\\nIt mainly lives near forests^ and exudes a refreshing lime scent.\\nWhen attacked",
@@ -1062,6 +1125,69 @@
       "ScriptKr": "ŷ �����ӿ� �п��Ǿ� ���� ���⸦ ǰ�� ������.\\nưư�� �� ������ �������δ�.",
       "ScriptEn": "\"A slime that is divided into King Slime and holds a shield weapon.\\nIt has a strong defense",
       "ScriptJp": " but appears slow.\"",
+      "ScriptCn": null
+    },
+    {
+      "id": 20009,
+      "ScriptKr": "���� �ӿ��� �������� ��� ����. ���� �߿��� ���� ���ϴ�.",
+      "ScriptEn": "Goblins that live in dungeons in packs. They are the weakest of the goblins.",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 20010,
+      "ScriptKr": "���� �ӿ��� �������� ��� ����. ������ �����ִ� �������� �ణ �� ���ϴ�.",
+      "ScriptEn": "Goblins that live in dungeons in packs. They wear masks and are slightly stronger.",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 20011,
+      "ScriptKr": "���� �ӿ��� �������� ��� ����. ���и� ��������� ���� ���ϴ�.",
+      "ScriptEn": "Goblins that live in dungeons in packs. They carry shields and are strong.",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 20012,
+      "ScriptKr": "���� ������. �������� ��Ƴ������� � ���ð� �ߴ��ߴ�.",
+      "ScriptEn": "Spiky snails. They have developed spines on their backs to survive in dungeons.",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 20013,
+      "ScriptKr": "���� å. �������� ���� �������� ��ȥ�� ���� �Ƿ�.",
+      "ScriptEn": "Magic books. Evil spirits created by the spirits of wizards who died in dungeons.",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 20014,
+      "ScriptKr": "�����ӿ��� ���� ���谡���� ���̷����� �Ǿ���.",
+      "ScriptEn": "Adventurers who died in dungeons have become skeletons.",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 20015,
+      "ScriptKr": "������ ���� ���� �����̸� ������ ������ ���� ���·� �������.",
+      "ScriptEn": "\"The evil power of the dungeon has left the snails in a state of limbo",
+      "ScriptJp": " neither living nor dead.\"",
+      "ScriptCn": null
+    },
+    {
+      "id": 20016,
+      "ScriptKr": "���� ����. ��� ���� �����ϱ�? �˼������� �� ���� ���� ����ؼ� �Ĵٺ����ִ�.",
+      "ScriptEn": "\"Monster eyes. Where did these eyes come from? I don't know",
+      "ScriptJp": " but these eyes keep staring at me.\"",
+      "ScriptCn": null
+    },
+    {
+      "id": 20017,
+      "ScriptKr": "������ ���� ���� ������ ���� ���Ź�. �����Ҽ����� ���� ������.",
+      "ScriptEn": "A poisonous spider that has transformed the evil power of the dungeon into venom. It possesses a power that cannot be ignored.",
+      "ScriptJp": null,
       "ScriptCn": null
     },
     {

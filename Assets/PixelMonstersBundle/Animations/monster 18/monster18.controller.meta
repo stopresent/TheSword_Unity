@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a240a50690c209849af8d2b62945fdda
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Animations/monster 18/monster18.controller
+  uploadId: 754908

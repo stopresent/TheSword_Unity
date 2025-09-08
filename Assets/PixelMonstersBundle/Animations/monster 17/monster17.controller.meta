@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: afdd930c7eec8814eb6ca499f3920305
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Animations/monster 17/monster17.controller
+  uploadId: 754908

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ccb4aec69021e4f4d81ce5c1edd5945a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Animations/monster 5/monster5_web.controller
+  uploadId: 754908

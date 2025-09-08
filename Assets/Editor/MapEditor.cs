@@ -253,6 +253,7 @@ public class MapEditor : EditorWindow
                     GameObject monster = Instantiate(Monster, monsters.transform);
                     monster.transform.localPosition = new Vector3(objectData.Position.X, objectData.Position.Y, objectData.Position.Z);
                     monster.GetComponent<MonsterController>().id = objectData.Id;
+                    Debug.Log($"Monster ID: {objectData.Id}");
                     monster.name = $"monster{objectData.Count}";
                     monster.GetComponent<MonsterController>()._monsterIndex_forActive = objectData.Count;
                 }

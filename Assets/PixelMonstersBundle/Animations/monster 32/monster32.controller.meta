@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c5b4f1206728b9c4299abb6490207e54
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Animations/monster 32/monster32.controller
+  uploadId: 754908

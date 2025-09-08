@@ -1,0 +1,110 @@
+The purchase of this asset grants you a license to use it on any type of project without limitations, including commercial projects, but does not grant you the right to sell or distribute in any way the content of this asset pack, this right belongs exclusively to the author. Likewise, it is not allowed to use the art of these assets for AI purposes or to create NFTs.
+
+All content in this folder has been created by Isra Maraver AKA ismartal
+
+Email: isramara@proton.me
+
+Discord: ismartal
+
+This pack contains a total of 50 animated characters and several VFX that complement some of the animations.
+
+Texture and sprite dimensions (all sizes are in pixels):
+
+Monster 1, 1240x136 - Cell size 40x34 
+Monster 1 spikes, 48x16 - Cell size 16x16 
+Monster 2, 688x230 - Cell size 43x46 
+Monster 3, 976x158 - Cell size 61x37 
+Monster 3 skull, 96x24 - Cell size 24x24 
+Monster 4, 870x148 - Cell size 58x37 
+Monster 5, 840x240 - Cell size 60x48 
+Monster 5 web, 128x32 - Cell size 32x32 
+Monster 5 brood, 396x125 - Cell size 33x25 
+Monster 6, 1606x136 - Cell size 73x34 
+Monster 7, 1444x236 - Cell size 76x59 
+Monster 8, 950x92 - Cell size 50x23 
+Monster 9, 700x110 - Cell size 35x55
+Monster 10, 720x100 - Cell size 48x25
+Monster 11, 770x144 - Cell size 70x36
+Monster 12, 506x172 - Cell size 46x43
+Monster 13, 1056x72 - Cell size 66x36
+Monster 14, 671x230 - Cell size 61x46
+Monster 15, 2400x186 - Cell size 75x62
+Monster 16, 728x200 - Cell size 52x50
+Monster 16 bullet, 102x11 - Cell size 17x11
+Monster 17, 387x102 - Cell size 43x34
+Monster 18, 1771x129 - Cell size 77x43
+Monster 18 attackVFX, 880x50 - Cell size 88x25
+Monster 19, 490x62 - Cell size 49x31
+Monster 20, 804x126 - Cell size 67x42
+Monster 21, 1200x300 - cell size 100x100
+Monster 22, 1600x1500 - cell size 100x100
+Monster 22 Projectile, 384x34 - cell size 64x34
+Monster 23, 2048x764 - cell size 128x128
+Monster 23 Projectile, 384x34 - cell size 64x34
+Monster 24, 888x666 - cell size 74x74
+Monster 25, 1200x500 - cell size 100x100
+Monster 25 projectile, 42x9 - cell size 19x19
+Monster 26, 1100x200 - cell size 100x100
+Monster 26 Tentacle, 651x153 - cell size 93x153
+Monster 26 Projectile, 19x19 - cell size 19x19
+Monster 27 RollAttack, 720x132 - cell size 180x132
+Monster 27 Dead, 1440x660 - cell size 180x132
+Monster 27 Jump, 1440x396 - cell size 180x132
+Monster 27 SpikeAttack, 1440x264  - cell size 180x132
+Monster 27 Idle, 1440x528 - cell size 180x132
+Monster 27 Walk, 1440x396 - cell size 180x132
+Monster 27 dustVFX, 167x82 - cell size 167x82
+Monster 27 Spike, 26x26 - cell size 26x26
+Monster 28, 672x288 - cell size 96x96
+Monster 28 Attack, 960x480 - cell size 96x96
+Monster 28 Dead, 1056x288 - cell size 96x96
+Monster 28 AttackVFX, 1800x400 - cell size 180x100
+Monster 29, 864x480 - cell size 96x96
+Monster 30, 2070x768 - cell size 138x96
+Monster 31, 1024x384 - cell size 64x64
+Monster 31 Projectile, 128x32  - cell size 32x32
+Monster 32, 960x576 - cell size 160x96
+Monster 33, 1248x480 - cell size 96x96
+Monster 34, 1200x600 - cell size 100x100
+Monster 34 Spike, 15x16 - cell size 15x16
+Monster 35 Idle, 2800x600 - cell size 280x600
+Monster 35 Hit, 1120x200 - cell size 280x600
+Monster 35 Dead, 2800x1000 - cell size 280x600
+Monster 35 Attack, 2800x600 - cell size 280x600
+Monster 36 Hit, 875x170 - cell size 175x170
+Monster 36 Dead, 1750x340 - cell size 175x170
+Monster 36 Attack, 1750x510 - cell size 175x170
+Monster 36 Idle, 1750x170 - cell size 175x170
+Monster 36 AttackVFX, 1800x144 - cell size 360x36
+Monster 37, 1792x512 - cell size 128x128
+Monster 37 AttackVFX, 672x128 - cell size 112x64
+Monster 37 Bullet, 16x16 - cell size 16x16
+Monster 38, 2112x384 - cell size 96x96
+Monster 39, 1728x672 - cell size 96x96
+Monster 40, 960x576 - cell size 96x96
+Monster 40 Projectile, 16x16 - cell size 16x16
+Monster 41, 486x252 - cell size 81x84
+Monster 41 appear, 1153x168 - cell size 81x84
+Monster 41 disappear, 1053x168 - cell size 81x84
+Monster 41 death, 810x168 - cell size 81x84
+Monster 42, 912x290 - cell size 38x58
+Monster 42 attackVFX, 618x84 - cell size 103x42
+Monster 43, 378x92 - cell size 42x46
+Monster 43 attackVFX, 594x141 - cell size 54x47
+Monster 44 big, 812x256 - cell size 58x52
+Monster 44 med, 770x255 - cell size 55x51
+Monster 44 small, 490x160 - cell size 35x32
+Monster 45, 928x208 - cell size 58x52
+Monster 45 attackVFX, 492x76 - cell size 41x76
+Monster 46, 552x364 - cell size 69x91
+Monster 46 death, 996x128 - cell size 69x91
+Monster 46 appear, 828x273 - cell size 69x91
+Monster 46 attackVFX, 480x60 - cell size 60x60
+Monster 47, 660x180 - cell size 60x36
+Monster 48, 936x192 - cell size 52x48
+Monster 48 projectile, 64x16 - cell size 16x16
+Monster 49, 768x288 - cell size 96x96
+Monster 49 death, 1344x192 - cell size 96x96
+Monster 50, 924x345 - cell size 66x69
+Monster 50 projectile, 240x15 - cell size 40x15
+Monster 50 projectile impact, 484x39 - cell size 44x39

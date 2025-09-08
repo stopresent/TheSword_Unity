@@ -143,7 +143,22 @@ public class MovingWall : MonoBehaviour
             GameObject item = Instantiate(Resources.Load("ConsumableItem") as GameObject);
             item.transform.localPosition = Vector3.right * _offset;
             item.GetComponent<ConsumableItem>().id = 2;
-            item.name = $"CItem{item.GetComponent<ConsumableItem>().id}";
+            item.name = $"Create CItem{item.GetComponent<ConsumableItem>().id}";
+            Debug.Log("Creature CItem");
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == (int)Define.Layer.PedalSwitch)
+        {
+            // Create Red Key
+            //GameObject potion = Managers.Resource.Instantiate("ConsumableItem");
+            GameObject item = Instantiate(Resources.Load("ConsumableItem") as GameObject, transform.parent);
+            item.transform.localPosition = transform.localPosition + Vector3.right * _offset;
+            item.GetComponent<ConsumableItem>().id = 2;
+            item.name = $"Create CItem{item.GetComponent<ConsumableItem>().id}";
+            Debug.Log("Creature CItem");
         }
     }
 }

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb4fa8dfec413a943a6d7df66c8a43e3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Animations/monster 50/monster50_Projectile.controller
+  uploadId: 754908

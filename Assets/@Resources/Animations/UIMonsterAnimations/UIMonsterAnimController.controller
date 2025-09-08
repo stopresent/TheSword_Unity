@@ -51,7 +51,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mob_C0_I006
+  m_Name: Mob_C0_I010
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -274,7 +274,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mob_C0_A005
+  m_Name: Mob_C0_A009
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -327,7 +327,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mob_C0_I007
+  m_Name: Mob_C0_I011
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -353,7 +353,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mob_C0_A007
+  m_Name: Mob_C0_A011
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -803,7 +803,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mob_C0_A006
+  m_Name: Mob_C0_A010
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -830,7 +830,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mob_C0_I005
+  m_Name: Mob_C0_I009
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

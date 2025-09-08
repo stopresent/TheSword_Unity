@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1e26fa43d8290a4f9055f8b1e582a59
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319394
+  packageName: Pixel Monsters Bundle
+  packageVersion: 1.0
+  assetPath: Assets/PixelMonstersBundle/Animations/monster 36/monster36_AttackVFX.controller
+  uploadId: 754908
