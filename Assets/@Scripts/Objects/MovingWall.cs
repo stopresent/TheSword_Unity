@@ -2,6 +2,7 @@
 using UnityEngine;
 using static Define;
 using static PlayerController;
+using static UnityEngine.UI.Image;
 
 public class MovingWall : MonoBehaviour
 {
@@ -73,13 +74,15 @@ public class MovingWall : MonoBehaviour
         bool somethingExist = false;
 
         RaycastHit hit;
-        Physics.Raycast(transform.position + _interpolateRayPos, _nextCellPos, out hit, _offset * 1.3f);
+        Physics.Raycast(transform.position, _nextCellPos, out hit, _offset * 1.3f);
+        Debug.DrawRay(transform.position, _nextCellPos.normalized * _offset * 1.3f, Color.red, 5f);
 
         if (hit.collider != null)
         {
             // Checking Wall
             if (hit.collider.gameObject.layer == (int)Define.Layer.Wall)
             {
+                Debug.Log("Check : Wall");
                 somethingExist = true;
             }
             else if (hit.collider.gameObject.layer == (int)Define.Layer.MovingWall)
@@ -134,20 +137,6 @@ public class MovingWall : MonoBehaviour
         return TouchDir.None; // 정면 충돌 아님
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.layer == (int)Define.Layer.PedalSwitch)
-        {
-            // Create Red Key
-            //GameObject potion = Managers.Resource.Instantiate("ConsumableItem");
-            GameObject item = Instantiate(Resources.Load("ConsumableItem") as GameObject);
-            item.transform.localPosition = Vector3.right * _offset;
-            item.GetComponent<ConsumableItem>().id = 2;
-            item.name = $"Create CItem{item.GetComponent<ConsumableItem>().id}";
-            Debug.Log("Creature CItem");
-        }
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == (int)Define.Layer.PedalSwitch)
@@ -159,6 +148,7 @@ public class MovingWall : MonoBehaviour
             item.GetComponent<ConsumableItem>().id = 2;
             item.name = $"Create CItem{item.GetComponent<ConsumableItem>().id}";
             Debug.Log("Creature CItem");
+            //TODO Sound
         }
     }
 }
