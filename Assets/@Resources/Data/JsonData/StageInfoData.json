@@ -246,6 +246,97 @@
       "EXP": 1000,
       "BGM": "BGM_105",
       "DungeonNameScriptID": 5018
+    },
+    {
+      "id": 19,
+      "DungeonID": "00_019",
+      "Type": 0,
+      "UpStage": "00_020",
+      "DownStage": "00_018",
+      "BossRoom": "-",
+      "ATK": 20,
+      "DEF": 20,
+      "EXP": 1100,
+      "BGM": "BGM_106",
+      "DungeonNameScriptID": 5019
+    },
+    {
+      "id": 20,
+      "DungeonID": "00_020",
+      "Type": 0,
+      "UpStage": "00_021",
+      "DownStage": "00_019",
+      "BossRoom": "-",
+      "ATK": 21,
+      "DEF": 21,
+      "EXP": 1200,
+      "BGM": "BGM_107",
+      "DungeonNameScriptID": 5020
+    },
+    {
+      "id": 21,
+      "DungeonID": "00_021",
+      "Type": 0,
+      "UpStage": "00_022",
+      "DownStage": "00_020",
+      "BossRoom": "-",
+      "ATK": 22,
+      "DEF": 22,
+      "EXP": 1300,
+      "BGM": "BGM_108",
+      "DungeonNameScriptID": 5021
+    },
+    {
+      "id": 22,
+      "DungeonID": "00_022",
+      "Type": 0,
+      "UpStage": "00_023",
+      "DownStage": "00_021",
+      "BossRoom": "-",
+      "ATK": 23,
+      "DEF": 23,
+      "EXP": 1400,
+      "BGM": "BGM_109",
+      "DungeonNameScriptID": 5022
+    },
+    {
+      "id": 23,
+      "DungeonID": "00_023",
+      "Type": 0,
+      "UpStage": "00_024",
+      "DownStage": "00_022",
+      "BossRoom": "-",
+      "ATK": 24,
+      "DEF": 24,
+      "EXP": 1500,
+      "BGM": "BGM_110",
+      "DungeonNameScriptID": 5023
+    },
+    {
+      "id": 24,
+      "DungeonID": "00_024",
+      "Type": 0,
+      "UpStage": "00_025",
+      "DownStage": "00_023",
+      "BossRoom": "-",
+      "ATK": 25,
+      "DEF": 25,
+      "EXP": 1600,
+      "BGM": "BGM_111",
+      "DungeonNameScriptID": 5024
+    },
+    {
+      "id": 25,
+      "DungeonID": "00_025",
+      "Type": 0,
+      "UpStage": "00_026",
+      "DownStage": "00_024",
+      "BossRoom": "-",
+      "ATK": 26,
+      "DEF": 26,
+      "EXP": 1700,
+      "BGM": "BGM_112",
+      "DungeonNameScriptID": 5025
     }
   ]
 }
