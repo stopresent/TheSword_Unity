@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0af90651ed044664791b8d3306e743b9
+    m_Address: Dungeon_00_013
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0ff062209bf553e4db28aea06941477b
     m_Address: Dungeon_01_011
     m_ReadOnly: 0
@@ -39,6 +45,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34c1f5660dfc04443ad0ddd52669a802
+    m_Address: Dungeon_00_015
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 42abb205c2fe8d749af19c9952b57193
     m_Address: Dungeon_00_005
     m_ReadOnly: 0
@@ -51,6 +63,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b756b5c87e01814dbec5807a8d39c64
+    m_Address: Dungeon_00_014
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6c089e22dcfad61479a7140c1d9b4e4e
     m_Address: Dungeon_00_001
     m_ReadOnly: 0
@@ -59,6 +77,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 785d952d85f0e9241b8fea1c7daf41eb
     m_Address: Dungeon_00_009
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83a97bbbec9181247b40736de93d8743
+    m_Address: Dungeon_00_012
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -81,6 +105,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfab2f460fb6d0b4d90228ed69e753fa
+    m_Address: Dungeon_00_018
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cc07757bcc5cfea46812f96b223dad39
     m_Address: Dungeon_00_010
     m_ReadOnly: 0
@@ -95,6 +125,18 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e06e6ddbf896a424f8f5340baaefd020
     m_Address: Dungeon_01_000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6e71cdfec159d543ae72217591c539c
+    m_Address: Dungeon_00_017
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6db8dd5c04bfc948afbc4aa12970a95
+    m_Address: Dungeon_00_016
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad

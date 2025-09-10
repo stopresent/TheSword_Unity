@@ -314,6 +314,11 @@ public class MapEditor : EditorWindow
                         GameObject wall = Instantiate(SelectedTileMap[objectData.Id], walls.transform);
                         if (wall.name.Contains("Tilemap_C0_W00"))
                             wall.transform.position = new Vector3(objectData.Position.X, wall.transform.position.y, objectData.Position.Z);
+                        else if (wall.name.Contains("Black"))
+                        {
+                            wall.transform.position = new Vector3(objectData.Position.X, wall.transform.position.y - Define.TILE_SIZE / 2 + 0.35f, objectData.Position.Z);
+                            wall.transform.localScale = new Vector3(23f, 23f, 23f);
+                        }
                         else if (wall.name.Contains("Dungeon"))
                         {
                             wall.transform.position = new Vector3(objectData.Position.X, wall.transform.position.y - Define.TILE_SIZE / 2 + 0.35f, objectData.Position.Z);

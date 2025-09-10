@@ -198,7 +198,7 @@
     {
       "id": 15,
       "DungeonID": "00_015",
-      "Type": 2,
+      "Type": 0,
       "UpStage": "00_016",
       "DownStage": "00_014",
       "BossRoom": "-",
@@ -207,6 +207,45 @@
       "EXP": 700,
       "BGM": "BGM_102",
       "DungeonNameScriptID": 5015
+    },
+    {
+      "id": 16,
+      "DungeonID": "00_016",
+      "Type": 0,
+      "UpStage": "00_017",
+      "DownStage": "00_015",
+      "BossRoom": "-",
+      "ATK": 17,
+      "DEF": 17,
+      "EXP": 800,
+      "BGM": "BGM_103",
+      "DungeonNameScriptID": 5016
+    },
+    {
+      "id": 17,
+      "DungeonID": "00_017",
+      "Type": 0,
+      "UpStage": "00_018",
+      "DownStage": "00_016",
+      "BossRoom": "-",
+      "ATK": 18,
+      "DEF": 18,
+      "EXP": 900,
+      "BGM": "BGM_104",
+      "DungeonNameScriptID": 5017
+    },
+    {
+      "id": 18,
+      "DungeonID": "00_018",
+      "Type": 0,
+      "UpStage": "00_019",
+      "DownStage": "00_017",
+      "BossRoom": "-",
+      "ATK": 19,
+      "DEF": 19,
+      "EXP": 1000,
+      "BGM": "BGM_105",
+      "DungeonNameScriptID": 5018
     }
   ]
 }

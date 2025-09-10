@@ -939,6 +939,27 @@
       "ScriptCn": null
     },
     {
+      "id": 5016,
+      "ScriptKr": "ž 13��",
+      "ScriptEn": "Tower 13F",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 5017,
+      "ScriptKr": "ž 14��",
+      "ScriptEn": "Tower 14F",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
+      "id": 5018,
+      "ScriptKr": "ž 15��",
+      "ScriptEn": "Tower 15F",
+      "ScriptJp": null,
+      "ScriptCn": null
+    },
+    {
       "id": 10000,
       "ScriptKr": "���� ������",
       "ScriptEn": "Lime Slime",
