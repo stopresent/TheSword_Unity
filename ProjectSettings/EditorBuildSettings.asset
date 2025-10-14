@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/@Scenes/GameScene.unity
     guid: c59f258f587b5c24cad1fce1bd9832d0
+  - enabled: 1
+    path: Assets/@Scenes/Game2Scene.unity
+    guid: 51dc76693c680894288cf4844a6850f7
   - enabled: 0
     path: Assets/@Scenes/MapEditScene.unity
     guid: 01dbe6f738cadee45812fd00ddd9f498
@@ -31,3 +34,4 @@ EditorBuildSettings:
     guid: a7234913fa2483c48b4a189c7fe830d6
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 0baa1ce891982954d8c27adbef96d9ce, type: 2}
+  m_UseUCBPForAssetBundles: 0

@@ -231,7 +231,7 @@ public class UI_TitleScene : UI_Scene
         SetPlayerInitSetting();
 
 #if UNITY_EDITOR
-        Managers.Scene.LoadScene(Define.Scene.GameScene);
+        Managers.Scene.LoadScene(Define.Scene.Game2Scene);
 #else
         Managers.Scene.LoadScene(Define.Scene.IntroScene);
 #endif
@@ -249,7 +249,7 @@ public class UI_TitleScene : UI_Scene
         else
         {
             Debug.Log("Cllck OnClickLoadGameButton");
-            Managers.Scene.LoadScene(Define.Scene.GameScene);
+            Managers.Scene.LoadScene(Define.Scene.Game2Scene);
         }
     }
 

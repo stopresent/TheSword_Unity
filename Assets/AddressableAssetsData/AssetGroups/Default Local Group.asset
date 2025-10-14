@@ -13,24 +13,10 @@ MonoBehaviour:
   m_Name: Default Local Group
   m_EditorClassIdentifier: 
   m_GroupName: Default Local Group
-  m_Data:
-    m_SerializedData: []
   m_GUID: cbd0affa2094e6e4db6cb3054065e916
   m_SerializeEntries:
-  - m_GUID: d7b00a6060117f94bbd655273b1a0d2f
-    m_Address: GameSceneProfile
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PreLoad
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 40bf980ef13974c49b05b830f29e721e
     m_Address: 6D Shake
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PreLoad
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 764337d885375dd44af726343a7efc94
-    m_Address: ForestColorIllust.sprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -41,14 +27,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9c3c4cd9c7f937f40ac183fb42ce3bed
-    m_Address: LoadingIllust1.sprite
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PreLoad
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b3236ec6717c13542afc7dcc14aa0133
-    m_Address: LoadingIllust2.sprite
+  - m_GUID: 569669ad4bfb46c448cb4738480c998a
+    m_Address: LoadingIllust4.sprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -59,8 +39,20 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 569669ad4bfb46c448cb4738480c998a
-    m_Address: LoadingIllust4.sprite
+  - m_GUID: 6d9ac41ba982d02459d70e3d202b447e
+    m_Address: PopUpUI_TutorialGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 764337d885375dd44af726343a7efc94
+    m_Address: ForestColorIllust.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c3c4cd9c7f937f40ac183fb42ce3bed
+    m_Address: LoadingIllust1.sprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -71,20 +63,26 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fc9a8820247abff47b22b4704fd1de5b
-    m_Address: LoadingIllust6.sprite
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PreLoad
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aba96e73615ecdf46a20a2672089bf8b
     m_Address: UI_LoadingIllustImage
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6d9ac41ba982d02459d70e3d202b447e
-    m_Address: PopUpUI_TutorialGuide
+  - m_GUID: b3236ec6717c13542afc7dcc14aa0133
+    m_Address: LoadingIllust2.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7b00a6060117f94bbd655273b1a0d2f
+    m_Address: GameSceneProfile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc9a8820247abff47b22b4704fd1de5b
+    m_Address: LoadingIllust6.sprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -93,5 +91,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: e1c6574a9bcad144484747921df69bf8, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 6d286ecfb5e68c046831860020227d8b, type: 2}
     - {fileID: 11400000, guid: 18492650dc5c3fa4a963715965e65595, type: 2}
+    - {fileID: 11400000, guid: 6d286ecfb5e68c046831860020227d8b, type: 2}

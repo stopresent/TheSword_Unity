@@ -20,6 +20,7 @@ public class Define
         TitleScene,
         IntroScene,
         GameScene,
+        Game2Scene,
         TutorialScene,
         EndingScene,
     }

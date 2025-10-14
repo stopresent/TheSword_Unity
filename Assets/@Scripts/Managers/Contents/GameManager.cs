@@ -233,6 +233,7 @@ public class GameManager
     #region InGame
     public int GameSpeed = 1;
     public UI_GameScene GameScene = null;
+    public UI_Game2Scene Game2Scene = null;
     public int AttackCount { get; set; }
     public float PlayTime = 0f;
     public float DefenceCoolTime = 0f;
