@@ -206,7 +206,7 @@ public class Events : MonoBehaviour
 
         //Managers.Game.PlayerData.CurSword = Define.EQUIP_SOWRD_FIRST + 1;
         Managers.Game.OnDirect = false;
-        Managers.Game.GameScene?.OnUIInventory();
+        //Managers.Game.GameScene?.OnUIInventory();
         Managers.UI.ShowGameSceneUI();
         Managers.Game.SaveGame();
 

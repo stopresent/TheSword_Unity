@@ -39,6 +39,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 654850c97da2c4f4795cee7aa5fcdc6e
+    m_Address: Assets/@Resources/Prefabs/UI/Scene/UI_LobbyScene.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6d9ac41ba982d02459d70e3d202b447e
     m_Address: PopUpUI_TutorialGuide
     m_ReadOnly: 0

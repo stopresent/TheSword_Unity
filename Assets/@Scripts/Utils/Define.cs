@@ -22,6 +22,7 @@ public class Define
         GameScene,
         Game2Scene,
         TutorialScene,
+        LobbyScene,
         EndingScene,
     }
 

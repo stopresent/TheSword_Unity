@@ -18,13 +18,7 @@ public class UI_Game2Scene : UI_Scene
     // 지금 코드를 짜는게 먼저가 아니라 기획이 먼저야
     // 그럼 기획을 먼저 하자
     // 어떻게 다시 만들지?
-
-    public void IhavenoIdea()
-    {
-        Debug.Log("I have no idea");
-        Debug.Log("기분이 너무 안좋아 속이 안좋다. 모든게 역겹다. 재밌는 게임이란 뭘까. 8시네");
-    }
-    
+    public int idx = 0;
 
     #region Enum
     public enum Texts
@@ -60,5 +54,19 @@ public class UI_Game2Scene : UI_Scene
         #endregion
 
         return true;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            GameObject go = Managers.Resource.Instantiate("Monster");
+            go.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+            go.transform.position = new Vector3(0, 0, 2.24f);
+            go.transform.localScale = new Vector3(1, 2, 1);
+            go.GetComponent<MonsterController>().id = idx;
+            go.GetComponent<MonsterController>().Init();
+            go.GetComponent<MonsterController>().SetMonster(idx++);
+        }
     }
 }

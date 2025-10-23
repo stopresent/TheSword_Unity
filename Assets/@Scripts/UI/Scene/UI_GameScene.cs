@@ -18,10 +18,10 @@ public class UI_GameScene : UI_Scene
 
     enum GameObjects
     {
-        KeyInventory,
-        GreenKey,
-        YellowKey,
-        RedKey,
+        //KeyInventory,
+        //GreenKey,
+        //YellowKey,
+        //RedKey,
     }
 
     enum Texts
@@ -36,22 +36,23 @@ public class UI_GameScene : UI_Scene
 
     enum Images
     {
-        MainUIEXPGaugeImage,
-        MainUIAuxiliaryHPGaugeImage,
-        MainUIOptionAImage,
-        MainUIOptionBImage,
-        MainUIInventoryAImage,
-        MainUIInventoryBImage,
-        MainUISwordAImage,
-        MainUISwordBImage,
-        MainUIWarpAImage,
-        MainUIWarpBImage,
-        MainUIStatusHPImage,
-        LoadingIllustImage,
+        //MainUIEXPGaugeImage,
+        //MainUIAuxiliaryHPGaugeImage,
+        //MainUIOptionAImage,
+        //MainUIOptionBImage,
+        //MainUIInventoryAImage,
+        //MainUIInventoryBImage,
+        //MainUISwordAImage,
+        //MainUISwordBImage,
+        //MainUIWarpAImage,
+        //MainUIWarpBImage,
+        //MainUIStatusHPImage,
+        //LoadingIllustImage,
     }
 
     #endregion
 
+    public int idx = 0;
     public bool isOpenMenuPopup = false;
     public bool isOpenInfoPopup = false;
     public override bool Init()
@@ -66,35 +67,35 @@ public class UI_GameScene : UI_Scene
         BindImage(typeof(Images));
         #endregion
 
-        Managers.UI.UI_GameScene = this;
-        #region PointerEnter&PointerExit
-        GetImage((int)Images.MainUIOptionAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUIOptionBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
-        GetImage((int)Images.MainUIOptionAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUIOptionBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
+        //Managers.UI.UI_GameScene = this;
+        //#region PointerEnter&PointerExit
+        //GetImage((int)Images.MainUIOptionAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUIOptionBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
+        //GetImage((int)Images.MainUIOptionAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUIOptionBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
 
-        GetImage((int)Images.MainUIInventoryAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
-        GetImage((int)Images.MainUIInventoryAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
+        //GetImage((int)Images.MainUIInventoryAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
+        //GetImage((int)Images.MainUIInventoryAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
 
-        GetImage((int)Images.MainUISwordAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
-        GetImage((int)Images.MainUISwordAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
+        //GetImage((int)Images.MainUISwordAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
+        //GetImage((int)Images.MainUISwordAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
 
-        GetImage((int)Images.MainUIWarpAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
-        GetImage((int)Images.MainUIWarpAImage).gameObject.BindEvent(() =>
-        { GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
-        #endregion
+        //GetImage((int)Images.MainUIWarpAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(true); }, null, Define.UIEvent.PointerEnter);
+        //GetImage((int)Images.MainUIWarpAImage).gameObject.BindEvent(() =>
+        //{ GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(false); }, null, Define.UIEvent.PointerExit);
+        //#endregion
 
-        #region OffBImage
-        GetImage((int)Images.MainUIOptionBImage).gameObject.SetActive(false);
-        GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false);
-        GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(false);
-        GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(false);
-        #endregion
+        //#region OffBImage
+        //GetImage((int)Images.MainUIOptionBImage).gameObject.SetActive(false);
+        //GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false);
+        //GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(false);
+        //GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(false);
+        //#endregion
 
         Managers.Game.GenerateMap(Managers.Game.PlayerData.CurStageid);
         Managers.Game.PlayerData.MoveSpeed = 1f;
@@ -105,35 +106,35 @@ public class UI_GameScene : UI_Scene
         //Managers.Game.PlayerData.CurSword = Define.EQUIP_SOWRD_FIRST;
         //Managers.Game.PlayerData.CurShield = 0;
 
-        Managers.Game.Player._keyInventory = GetObject((int)GameObjects.KeyInventory);
+        //Managers.Game.Player._keyInventory = GetObject((int)GameObjects.KeyInventory);
 
-        if (PlayerPrefs.GetInt("ISOPENGREENKEY") == 0)
-            GetObject((int)GameObjects.GreenKey).SetActive(false);
-        if (PlayerPrefs.GetInt("ISOPENYELLOWKEY") == 0)
-            GetObject((int)GameObjects.YellowKey).SetActive(false);
-        if (PlayerPrefs.GetInt("ISOPENREDKEY") == 0)
-            GetObject((int)GameObjects.RedKey).SetActive(false);
+        //if (PlayerPrefs.GetInt("ISOPENGREENKEY") == 0)
+        //    GetObject((int)GameObjects.GreenKey).SetActive(false);
+        //if (PlayerPrefs.GetInt("ISOPENYELLOWKEY") == 0)
+        //    GetObject((int)GameObjects.YellowKey).SetActive(false);
+        //if (PlayerPrefs.GetInt("ISOPENREDKEY") == 0)
+        //    GetObject((int)GameObjects.RedKey).SetActive(false);
 
         // UI 활성화 여부 체크
-        if (PlayerPrefs.GetInt("ISOPENINVENUI") == 0) // 인벤 활성화 x
-            OffUIInventory();
-        if (PlayerPrefs.GetInt("ISOPENWARPUI") == 0)
-            OffUIWarp();
-        if (PlayerPrefs.GetInt("ISOPENCLASSUI") == 0)
-            OffUISword();
+        //if (PlayerPrefs.GetInt("ISOPENINVENUI") == 0) // 인벤 활성화 x
+        //    OffUIInventory();
+        //if (PlayerPrefs.GetInt("ISOPENWARPUI") == 0)
+        //    OffUIWarp();
+        //if (PlayerPrefs.GetInt("ISOPENCLASSUI") == 0)
+        //    OffUISword();
 
-        GetImage((int)Images.MainUIOptionAImage).gameObject.BindEvent(() =>
-        {
-            GameObject go = GameObject.Find("UI_MenuPopup");
-            if (go == null)
-            {
-                isOpenMenuPopup = true;
-                Managers.UI.ShowPopupUI<UI_MenuPopup>();
-            }
-            else
-                go.GetComponent<UI_MenuPopup>().OpenOtherUI();
-        });
-        GetImage((int)Images.MainUIInventoryAImage).gameObject.BindEvent(OnClickMainUIInventoryAImage);
+        //GetImage((int)Images.MainUIOptionAImage).gameObject.BindEvent(() =>
+        //{
+        //    GameObject go = GameObject.Find("UI_MenuPopup");
+        //    if (go == null)
+        //    {
+        //        isOpenMenuPopup = true;
+        //        Managers.UI.ShowPopupUI<UI_MenuPopup>();
+        //    }
+        //    else
+        //        go.GetComponent<UI_MenuPopup>().OpenOtherUI();
+        //});
+        //GetImage((int)Images.MainUIInventoryAImage).gameObject.BindEvent(OnClickMainUIInventoryAImage);
 
         //GetButton((int)Buttons.PlayConversation).gameObject.BindEvent(() =>
         //{
@@ -162,10 +163,10 @@ public class UI_GameScene : UI_Scene
         //Managers.Game.MainCamera.GetComponentInChildren<CameraController>().SetupCameraConfiner();
         //#endregion
 
-        if (PlayerPrefs.GetInt("ISOPENSWORD") == 0)
-            GetImage((int)Images.MainUISwordAImage).gameObject.SetActive(false);
-        if (PlayerPrefs.GetInt("ISOPENPORTAL") == 0)
-            GetImage((int)Images.MainUIWarpAImage).gameObject.SetActive(false);
+        //if (PlayerPrefs.GetInt("ISOPENSWORD") == 0)
+        //    GetImage((int)Images.MainUISwordAImage).gameObject.SetActive(false);
+        //if (PlayerPrefs.GetInt("ISOPENPORTAL") == 0)
+        //    GetImage((int)Images.MainUIWarpAImage).gameObject.SetActive(false);
 
         Managers.Game.OnFadeAction.Invoke(1f);
 
@@ -202,7 +203,7 @@ public class UI_GameScene : UI_Scene
         Managers.Game.PlayerData.Level = Mathf.Max(level, 1);
         level = Mathf.Max(level, 1);
 
-        GetImage((int)Images.MainUIEXPGaugeImage).fillAmount = Managers.Game.PlayerData.CurExp / Managers.Data.PlayerDic[level + 1].NeedExp;
+        //GetImage((int)Images.MainUIEXPGaugeImage).fillAmount = Managers.Game.PlayerData.CurExp / Managers.Data.PlayerDic[level + 1].NeedExp;
         float hpRatio = Managers.Game.PlayerData.CurHP / Managers.Game.PlayerData.MaxHP;
         //GetImage((int)Images.MainUIAuxiliaryHPGaugeImage).fillAmount = hpRatio;
         GameObject.Find("PlayerHPBarGauge").GetComponent<Image>().fillAmount = hpRatio;
@@ -226,6 +227,13 @@ public class UI_GameScene : UI_Scene
         StartTimer();
 
         #region for_test
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            GameObject go = Managers.Resource.Instantiate("Monster");
+            go.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+            go.transform.position = Managers.Game.Player.transform.position + new Vector3(1000, 0, 0);
+            go.GetComponent<MonsterController>().SetMonster(idx++);
+        }
         if (Input.GetKeyDown(KeyCode.F1))
         {
             Managers.Game.PlayerData.CurExp += 10;
@@ -373,9 +381,9 @@ public class UI_GameScene : UI_Scene
         float textWidth = GetText((int)Texts.PlayerHPText).preferredWidth;
 
         // 이미지의 RectTransform 가져오기
-        RectTransform imageRect = GetImage((int)Images.MainUIStatusHPImage).GetComponent<RectTransform>();
-        // 이미지의 가로 크기를 텍스트 너비 + 여백으로 설정
-        imageRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, textWidth + 30f);
+        //RectTransform imageRect = GetImage((int)Images.MainUIStatusHPImage).GetComponent<RectTransform>();
+        //// 이미지의 가로 크기를 텍스트 너비 + 여백으로 설정
+        //imageRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, textWidth + 30f);
 
     }
 
@@ -387,44 +395,44 @@ public class UI_GameScene : UI_Scene
             Managers.UI.ClosePopupUI();
     }
 
-    public void OffUIInventory()
-    {
-        GetImage((int)Images.MainUIInventoryAImage).gameObject.SetActive(false);
-        GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false);
-    }
+    //public void OffUIInventory()
+    //{
+    //    GetImage((int)Images.MainUIInventoryAImage).gameObject.SetActive(false);
+    //    GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false);
+    //}
 
-    public void OnUIInventory()
-    {
-        PlayerPrefs.SetInt("ISOPENINVENUI", 1);
-        GetImage((int)Images.MainUIInventoryAImage).gameObject.SetActive(true);
-        GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false);
-    }
+    //public void OnUIInventory()
+    //{
+    //    PlayerPrefs.SetInt("ISOPENINVENUI", 1);
+    //    GetImage((int)Images.MainUIInventoryAImage).gameObject.SetActive(true);
+    //    GetImage((int)Images.MainUIInventoryBImage).gameObject.SetActive(false);
+    //}
 
-    public void OffUISword()
-    {
-        GetImage((int)Images.MainUISwordAImage).gameObject.SetActive(false);
-        GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(false);
-    }
+    //public void OffUISword()
+    //{
+    //    GetImage((int)Images.MainUISwordAImage).gameObject.SetActive(false);
+    //    GetImage((int)Images.MainUISwordBImage).gameObject.SetActive(false);
+    //}
 
-    public void OffUIWarp()
-    {
-        GetImage((int)Images.MainUIWarpAImage).gameObject.SetActive(false);
-        GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(false);
-    }
+    //public void OffUIWarp()
+    //{
+    //    GetImage((int)Images.MainUIWarpAImage).gameObject.SetActive(false);
+    //    GetImage((int)Images.MainUIWarpBImage).gameObject.SetActive(false);
+    //}
 
     public void OffUI()
     {
-        OffUIInventory();
-        OffUISword();
-        OffUIWarp();
+        //OffUIInventory();
+        //OffUISword();
+        //OffUIWarp();
     }
 
     public void OnUI()
     {
-        GetImage((int)Images.MainUIOptionAImage).gameObject.SetActive(true);
-        GetImage((int)Images.MainUIInventoryAImage).gameObject.SetActive(true);
-        GetImage((int)Images.MainUISwordAImage).gameObject.SetActive(true);
-        GetImage((int)Images.MainUIWarpAImage).gameObject.SetActive(true);
+        //GetImage((int)Images.MainUIOptionAImage).gameObject.SetActive(true);
+        //GetImage((int)Images.MainUIInventoryAImage).gameObject.SetActive(true);
+        //GetImage((int)Images.MainUISwordAImage).gameObject.SetActive(true);
+        //GetImage((int)Images.MainUIWarpAImage).gameObject.SetActive(true);
     }
 
     public void StartTimer()
@@ -448,15 +456,15 @@ public class UI_GameScene : UI_Scene
             yield return null;
 
         int randValue = UnityEngine.Random.Range(1, 7);
-        GetImage((int)Images.LoadingIllustImage).color = new Color(0, 0, 0, 1);
-        GetImage((int)Images.LoadingIllustImage).sprite = Managers.Resource.Load<Sprite>($"LoadingIllust{randValue}");
+        //GetImage((int)Images.LoadingIllustImage).color = new Color(0, 0, 0, 1);
+        //GetImage((int)Images.LoadingIllustImage).sprite = Managers.Resource.Load<Sprite>($"LoadingIllust{randValue}");
         float timer = 0f;
         float duration = 2f;
         while (timer < duration)
         {
             timer += Time.deltaTime;
             float t = Mathf.Clamp01(timer / duration);
-            GetImage((int)Images.LoadingIllustImage).color = new Color(t, t, t, 1);
+            //GetImage((int)Images.LoadingIllustImage).color = new Color(t, t, t, 1);
             //// 소리끄기
             //Managers.Sound.SetVolume(0);
             Managers.Sound.SetBGMVolume(PlayerPrefs.GetFloat("CURBGMSOUND", 1) * PlayerPrefs.GetFloat("SAVESOUND", 1) - t);
@@ -473,7 +481,7 @@ public class UI_GameScene : UI_Scene
         {
             timer += Time.deltaTime;
             float t = Mathf.Clamp01(timer / (duration / 2));
-            GetImage((int)Images.LoadingIllustImage).color = new Color(1 - t, 1 - t, 1 - t, 1);
+            //GetImage((int)Images.LoadingIllustImage).color = new Color(1 - t, 1 - t, 1 - t, 1);
 
             yield return null;
         }
@@ -481,7 +489,7 @@ public class UI_GameScene : UI_Scene
         Managers.Game.OnInputLock = false;
 
         // 일러스트 끄기
-        GetImage((int)Images.LoadingIllustImage).color = new Color(1, 1, 1, 0);
+        //GetImage((int)Images.LoadingIllustImage).color = new Color(1, 1, 1, 0);
     }
 
     /// <summary>
@@ -498,8 +506,8 @@ public class UI_GameScene : UI_Scene
         if (Managers.Game.GameScene == null)
             yield return null;
 
-        GetImage((int)Images.LoadingIllustImage).color = new Color(0, 0, 0, 1);
-        GetImage((int)Images.LoadingIllustImage).sprite = Managers.Resource.Load<Sprite>($"ForestIllust");
+        //GetImage((int)Images.LoadingIllustImage).color = new Color(0, 0, 0, 1);
+        //GetImage((int)Images.LoadingIllustImage).sprite = Managers.Resource.Load<Sprite>($"ForestIllust");
         GameObject UI_LoadingIllustImage = Managers.Resource.Instantiate($"UI_LoadingIllustImage", gameObject.transform);
         UI_LoadingIllustImage.GetComponent<Image>().sprite = Managers.Resource.Load<Sprite>($"ForestIllust");
 
@@ -550,7 +558,7 @@ public class UI_GameScene : UI_Scene
         Managers.Game.OnInputLock = false;
 
         // 일러스트 끄기
-        GetImage((int)Images.LoadingIllustImage).color = new Color(1, 1, 1, 0);
+        //GetImage((int)Images.LoadingIllustImage).color = new Color(1, 1, 1, 0);
         Destroy(go);
         Destroy(UI_LoadingIllustImage);
     }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SplitSlimeController : BossMonsterController
 {
-    protected override void Init()
+    public override void Init()
     {
         base.Init();
         SetDeadEvent();

@@ -328,7 +328,7 @@ public class GameManager
             map.transform.position = new Vector3(count * 100, 0f, 0f);
             Maps.Add(i, map);
             Debug.Log($"Map {i} instantiated at position {map.transform.position}");
-            RefreshMap(i);
+            //RefreshMap(i);
             count++;
         }
         DropItems = new GameObject(name: "DropItems");

@@ -231,9 +231,9 @@ public class UI_TitleScene : UI_Scene
         SetPlayerInitSetting();
 
 #if UNITY_EDITOR
-        Managers.Scene.LoadScene(Define.Scene.Game2Scene);
+        Managers.Scene.LoadScene(Define.Scene.LobbyScene);
 #else
-        Managers.Scene.LoadScene(Define.Scene.IntroScene);
+        Managers.Scene.LoadScene(Define.Scene.LobbyScene);
 #endif
     }
 
@@ -244,12 +244,12 @@ public class UI_TitleScene : UI_Scene
         if (PlayerPrefs.GetInt("ISFIRST", 1) == 1)
         {
             Debug.Log("Cllck OnClickLoadGameButton Nut Data is Null");
-            Managers.Scene.LoadScene(Define.Scene.IntroScene);
+            Managers.Scene.LoadScene(Define.Scene.LobbyScene);
         }
         else
         {
             Debug.Log("Cllck OnClickLoadGameButton");
-            Managers.Scene.LoadScene(Define.Scene.Game2Scene);
+            Managers.Scene.LoadScene(Define.Scene.LobbyScene);
         }
     }
 
@@ -339,5 +339,3 @@ public class UI_TitleScene : UI_Scene
         Managers.Game.PlayerData.CurBook = Define.NOT_EQUIP;
     }
 }
-
-

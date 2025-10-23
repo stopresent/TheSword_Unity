@@ -5,7 +5,7 @@ using UnityEngine;
 public class KingSlimeController : BossMonsterController
 {
     public SpriteRenderer _sr;
-    protected override void Init()
+    public override void Init()
     {
         base.Init();
         SetDeadEvent();
