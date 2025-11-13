@@ -694,4 +694,12 @@ public class PlayerController : MonoBehaviour
 
         return TouchDir.None; // 정면 충돌 아님
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "ToGame2")
+        {
+            Managers.Scene.LoadScene(Define.Scene.Game2Scene);
+        }
+    }
 }

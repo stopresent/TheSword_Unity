@@ -15,7 +15,10 @@ public class SplitSlimeController : BossMonsterController
     {
         Managers.Game.TotalKillSplitSlime++;
         if(Managers.Game.TotalKillSplitSlime == 3)
+        {
             Managers.Directing.BossOnDeadAction.Invoke();
+
+        }
 
         Managers.Directing.Events.StartBossDeathEffect(this.gameObject);
     }
